@@ -1,0 +1,19 @@
+# * ACESSAR O GIT BASH NA PASTA WWW DO WAMPP[LAMPP, MAMPP, XAMPP] SERVER *        #
+
+## Clona o repositório do GitHub para a máquina local                             #
+git clone https://github.com/LeoSeiki/biscoito.git
+
+## Configura o nome de usuário para o commit                                      #
+git config --global user.name "Leonardo"
+
+## Configura o email do usuário para o commit                                     #
+git config --global user.email "leonardosatoseiki@gmail.com"
+
+## Adiciona os arquivos alterados                                                 #
+git add .
+
+## Commita as alterações                                                          #
+git commit -m "Commit da Aula"
+
+## Se demorar, pede para inserir nome e senha do GitHub. Caso contrário, sucesso  #
+git push origin master
